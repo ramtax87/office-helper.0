@@ -1,0 +1,346 @@
+{
+ "page": {
+  "width_mm": 80,
+  "height_mm": 150
+ },
+ "text": [
+  {
+   "text": "Bäckerei Lange",
+   "x_mm": 23.7,
+   "baseline_mm": 10,
+   "width_mm": 32.6,
+   "font_family": "Liberation Mono",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 11,
+   "color": "#000000",
+   "align": "center"
+  },
+  {
+   "text": "Marienplatz 4 · 33098 Paderborn",
+   "x_mm": 15.39,
+   "baseline_mm": 14.6,
+   "width_mm": 49.22,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "center"
+  },
+  {
+   "text": "St.-Nr. 339/5123/0987",
+   "x_mm": 23.33,
+   "baseline_mm": 19.2,
+   "width_mm": 33.34,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "center"
+  },
+  {
+   "text": "Artikel",
+   "x_mm": 6,
+   "baseline_mm": 28.4,
+   "width_mm": 11.86,
+   "font_family": "Liberation Mono",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "EUR",
+   "x_mm": 68.92,
+   "baseline_mm": 28.4,
+   "width_mm": 5.08,
+   "font_family": "Liberation Mono",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "2 x Brötchen Sesam",
+   "x_mm": 6,
+   "baseline_mm": 34.2,
+   "width_mm": 30.48,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "1,40",
+   "x_mm": 67.23,
+   "baseline_mm": 34.2,
+   "width_mm": 6.77,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "1 x Mehrkornbrot 750 g",
+   "x_mm": 6,
+   "baseline_mm": 38.4,
+   "width_mm": 37.26,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "4,20",
+   "x_mm": 67.23,
+   "baseline_mm": 38.4,
+   "width_mm": 6.77,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "3 x Kaffee to go",
+   "x_mm": 6,
+   "baseline_mm": 42.6,
+   "width_mm": 27.1,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "8,70",
+   "x_mm": 67.23,
+   "baseline_mm": 42.6,
+   "width_mm": 6.77,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "1 x Käsekuchen Stück",
+   "x_mm": 6,
+   "baseline_mm": 46.8,
+   "width_mm": 33.87,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "2,90",
+   "x_mm": 67.23,
+   "baseline_mm": 46.8,
+   "width_mm": 6.77,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "SUMME",
+   "x_mm": 6,
+   "baseline_mm": 53.0,
+   "width_mm": 10.59,
+   "font_family": "Liberation Mono",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "17,20",
+   "x_mm": 63.41,
+   "baseline_mm": 53.0,
+   "width_mm": 10.59,
+   "font_family": "Liberation Mono",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "right",
+   "critical": "gross_total"
+  },
+  {
+   "text": "MwSt 7 % (netto 7,94)",
+   "x_mm": 6,
+   "baseline_mm": 58.0,
+   "width_mm": 33.34,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "0,56",
+   "x_mm": 67.65,
+   "baseline_mm": 58.0,
+   "width_mm": 6.35,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "right",
+   "critical": "vat_amount"
+  },
+  {
+   "text": "MwSt 19 % (netto 7,31)",
+   "x_mm": 6,
+   "baseline_mm": 62.0,
+   "width_mm": 34.93,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "1,39",
+   "x_mm": 67.65,
+   "baseline_mm": 62.0,
+   "width_mm": 6.35,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "right",
+   "critical": "vat_amount"
+  },
+  {
+   "text": "Bar          20,00",
+   "x_mm": 6,
+   "baseline_mm": 68.0,
+   "width_mm": 28.58,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Rückgeld      2,80",
+   "x_mm": 6,
+   "baseline_mm": 72.0,
+   "width_mm": 28.58,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Bon-Nr. 48213   29.10.2026 08:14",
+   "x_mm": 6,
+   "baseline_mm": 80.0,
+   "width_mm": 50.81,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "left",
+   "critical": "receipt_date"
+  },
+  {
+   "text": "TSE-Signatur: 7Fh2…Qk9",
+   "x_mm": 6,
+   "baseline_mm": 84.0,
+   "width_mm": 34.93,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "TSE-Transaktion: 105522",
+   "x_mm": 6,
+   "baseline_mm": 88.0,
+   "width_mm": 36.52,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Vielen Dank für Ihren Einkauf!",
+   "x_mm": 16.18,
+   "baseline_mm": 96.0,
+   "width_mm": 47.63,
+   "font_family": "Liberation Mono",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7.5,
+   "color": "#000000",
+   "align": "center"
+  }
+ ],
+ "rules": [
+  {
+   "from_mm": [
+    6,
+    30.0
+   ],
+   "to_mm": [
+    74,
+    30.0
+   ],
+   "width_pt": 0.3,
+   "color": "#000000"
+  },
+  {
+   "from_mm": [
+    6,
+    48.600000000000016
+   ],
+   "to_mm": [
+    74,
+    48.600000000000016
+   ],
+   "width_pt": 0.3,
+   "color": "#000000"
+  }
+ ],
+ "rects": [],
+ "codes": [],
+ "graphics": [],
+ "meta": {
+  "title": "Kassenbon Bäckerei Lange",
+  "type": "Kassenbon",
+  "layout": "Thermobon 80 mm"
+ }
+}

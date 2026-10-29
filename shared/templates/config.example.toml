@@ -1,0 +1,107 @@
+# Office Helper — configuration TEMPLATE
+# The implementing AI copies this into the implementation folder in build phase 2 and fills it from the interview.
+# It may switch to another format (YAML/JSON) if that suits the implementation better; keys and meanings stay.
+# NEVER put passwords or API keys in this file.
+
+company  = "Meine Firma GmbH"
+language = "de"                      # user language: "de" | "en" (asked first, root AGENTS.md)
+document_language = "de"             # letters, Verfahrensdokumentation, Steuerberater package — always German
+
+[company_details]                    # Pflichtangaben for letters (de/anleitung/12_deutschland.md · en/guide/12_germany.md §10) — never invent
+legal_form = "GmbH"                  # GmbH | UG | e.K. | GbR | Einzelunternehmen | Freiberufler | AG
+address = ""
+seat = ""                            # Sitz
+register_court = ""                  # e.g. "Amtsgericht Paderborn"
+register_number = ""                 # e.g. "HRB 12345"
+managing_directors = []
+tax_number = ""
+vat_id = ""
+phone = ""
+email = ""
+
+[germany]
+state = "NW"                         # Bundesland for holidays: BW BY BE BB HB HH HE MV NI NW RP SL SN ST SH TH
+vat_return = "monthly"               # monthly | quarterly | none (Kleinunternehmer § 19 UStG)
+vat_extension = false                # Dauerfristverlängerung
+payroll = false                      # employees / Minijobber → Lohnsteuer-Anmeldung, SV-Beiträge
+trade_tax_prepayments = true
+income_or_corporate_tax_prepayments = true
+property_tax = true
+industry = "Gastronomie"             # sharpens sender recognition
+default_payment_term_days = 14       # when an invoice gives no due date
+buffer_working_days = 3              # erledigen bis = Fristende − n working days (must reach someone)
+payment_buffer_working_days = 1
+steuerkalender_months_ahead = 3
+
+[tax_advisor]
+name = ""
+receives_documents_via = "email"     # email | datev_upload_mail | datev_unternehmen_online | paper | other
+datev_upload_address = ""            # only if used; sending still needs the user (de/anleitung/12_deutschland.md · en/guide/12_germany.md §11)
+
+[storage]
+type = "local"                       # "local" | "drive" (a synced/mounted cloud folder, de/anleitung/02_ablage.md · en/guide/02_storage.md)
+root = "~/Buero"                     # main folder; name chosen by the user
+
+[tree]
+folder_names = "de"                  # "de" (default, expected by Steuerberater/auditor) | "en"
+months = ["Januar", "Februar", "März", "April", "Mai", "Juni",
+          "Juli", "August", "September", "Oktober", "November", "Dezember"]
+categories = [
+  "Rechnungen_Eingang", "Rechnungen_Ausgang", "Kassenbelege", "Finanzamt", "Behörden",
+  "Sozialversicherung", "Bank", "Versicherungen", "Verträge", "Personal", "Lieferungen",
+  "Recht_Gericht", "Steuerberater", "Briefe", "Tickets", "Info", "Sonstiges",
+]
+create_next_year_from_month = 10     # build next year's tree from October on
+
+[sources]
+inbox_folder = "_Eingang"            # inside root
+extra_scan_folders = []              # e.g. ["~/Scans"]
+on_duplicate = "set_aside"           # "set_aside" (→ _office/duplicates) | "delete"
+inbox_warning_days = 10              # GoBD: zeitnahe Erfassung
+
+# one block per mailbox; the password lives in the secrets file under `password_secret`
+# [[sources.email]]
+# name = "main"
+# host = "imap.gmail.com"
+# user = "buero@example.de"
+# folder = "INBOX"
+# since = "2026-10-01"
+# password_secret = "OFFICE_MAIL_PASS_MAIN"
+
+[e_invoice]
+validator = "kosit"                  # official KoSIT validator + XRechnung configuration (versions ⟳)
+zugferd_validator = "mustang"
+keep_view_pdf = true
+
+[reconstruction]
+mode = "auto"                        # auto (every photo/image source) | on_request
+pdf_standard = "PDF/A-3b"            # PDF/A-3b with embedded original | PDF/A-2b
+max_raster_area_ratio = 0.15
+second_reading = "vision_model"      # vision_model | second_ocr_engine
+min_ssim_warning = 0.90
+provenance_note = true               # MUST stay true (de/anleitung/13_rekonstruktion.md · en/guide/13_reconstruction.md)
+
+[privacy]
+local_only_categories = ["Personal"] # never sent to cloud models (de/anleitung/12_deutschland.md · en/guide/12_germany.md §12)
+
+[schedule]
+reminder_days_before = [7, 3, 1]
+p1_if_due_within_days = 7
+timezone = "Europe/Berlin"
+
+[secrets]
+file = ".env"                        # in the implementation folder; chmod 600; excluded from git
+
+# Only if a standalone API runner is built (de/anleitung/08_agenten_und_anbieter.md · en/guide/08_agents_and_providers.md)
+# [runner]
+# provider = "openai"                # openai | anthropic | gemini | xai | mistral | openrouter | ollama | lmstudio | custom
+# base_url = ""                      # only for custom
+# model = ""                         # a current tool-calling model — never invented, see de/anleitung/08_agenten_und_anbieter.md · en/guide/08_agents_and_providers.md
+# api_key_secret = "OFFICE_LLM_API_KEY"
+# local_profile = "ollama"           # used for local_only_categories
+# max_steps = 80
+
+# [automation]
+# daily_run = "07:10"
+# weekdays = "Mon-Fri"
+# ai = "coding-agent-headless"       # or "runner"

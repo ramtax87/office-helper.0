@@ -1,0 +1,21 @@
+Kartoffel Müller GmbH · Hofweg 7 · 33100 Paderborn
+Steuernummer 339/5871/4402
+
+Muster Imbiss GmbH
+Westernstraße 1
+33098 Paderborn
+
+RECHNUNG                                   Rechnungsnummer: 1205
+                                           Rechnungsdatum: 28.10.2026
+                                           Kundennummer: K-0442
+
+Pos. Menge  Artikel                          Einzelpreis    Gesamt
+1    500 kg Speisekartoffeln festkochend     0,77 €         385,00 €
+2    1      Lieferpauschale                  35,00 €         35,00 €
+                                             Netto:         420,00 €
+                                             USt 7 %:        29,40 €
+                                             Gesamtbetrag:  449,40 €
+
+Lieferdatum: 28.10.2026
+Zahlbar bis 20.12.2026 ohne Abzug. Bei Zahlung bis 07.11.2026 2 % Skonto.
+Bankverbindung: IBAN DE89 3704 0044 0532 0130 00 · Verwendungszweck: Rechnung 1205

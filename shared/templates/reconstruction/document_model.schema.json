@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "office-helper/document_model.schema.json",
+  "title": "Office Helper — reconstructed document model",
+  "description": "Intermediate model between image analysis and PDF rendering (de/anleitung/13_rekonstruktion.md · en/guide/13_reconstruction.md). All coordinates in millimetres from the top-left corner of the page. The PDF is always rebuilt from this model; it is never edited by hand.",
+  "type": "object",
+  "required": ["source", "pages"],
+  "properties": {
+    "source": {
+      "type": "object",
+      "required": ["files", "sha256"],
+      "properties": {
+        "files": {"type": "array", "items": {"type": "string"}, "description": "original image file(s), page order"},
+        "sha256": {"type": "array", "items": {"type": "string"}},
+        "office_id": {"type": "integer"},
+        "captured_at": {"type": "string", "description": "ISO timestamp of intake"}
+      }
+    },
+    "status": {"enum": ["ok", "review"], "description": "review if any MUST check failed or a critical field lacks consensus"},
+    "quality": {
+      "type": "object",
+      "properties": {
+        "ssim": {"type": "number"},
+        "position_error_mm": {"type": "object", "properties": {"median": {"type": "number"}, "max": {"type": "number"}}},
+        "raster_area_ratio": {"type": "number"},
+        "uncertain_words": {"type": "integer"}
+      }
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["width_mm", "height_mm", "elements"],
+        "properties": {
+          "width_mm": {"type": "number"},
+          "height_mm": {"type": "number"},
+          "format": {"type": "string", "examples": ["DIN A4", "DIN A5", "Thermobon 80 mm", "custom"]},
+          "background": {"type": "string", "description": "#rrggbb paper colour, normally #ffffff"},
+          "elements": {"type": "array", "items": {"$ref": "#/$defs/element"}}
+        }
+      }
+    },
+    "review": {
+      "type": "array",
+      "description": "items the human must look at",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {"enum": ["uncertain_text", "critical_field", "raster_element", "plausibility", "code_not_decoded"]},
+          "page": {"type": "integer"},
+          "bbox_mm": {"$ref": "#/$defs/bbox"},
+          "candidates": {"type": "array", "items": {"type": "string"}},
+          "chosen": {"type": "string"},
+          "message": {"type": "string"},
+          "crop": {"type": "string", "description": "path of the crop image in _office/reconstruction/<id>/"}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "bbox": {"type": "array", "items": {"type": "number"}, "minItems": 4, "maxItems": 4, "description": "[x, y, width, height] in mm"},
+    "color": {"type": "string", "pattern": "^#[0-9a-fA-F]{6}$"},
+    "span": {
+      "type": "object",
+      "required": ["text", "font_family", "size_pt"],
+      "properties": {
+        "text": {"type": "string"},
+        "font_family": {"type": "string", "description": "font actually used for rendering, e.g. Liberation Sans"},
+        "detected_as": {"type": "string", "description": "what the original most likely used, e.g. Arial"},
+        "weight": {"enum": ["regular", "bold", "light", "medium", "semibold", "black"]},
+        "style": {"enum": ["normal", "italic"]},
+        "size_pt": {"type": "number"},
+        "color": {"$ref": "#/$defs/color"},
+        "tracking": {"type": "number", "description": "extra letter spacing in pt"},
+        "h_scale": {"type": "number", "description": "horizontal scale factor, 0.97–1.03"},
+        "underline": {"type": "boolean"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "element": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {"enum": ["text_line", "rule", "rect", "table", "path", "code", "image"]},
+        "role": {"type": "string", "description": "e.g. letterhead, return_address, recipient, info_block, subject, body, table, totals, footer, fold_mark, punch_mark, stamp, signature, logo, handwriting"},
+        "bbox_mm": {"$ref": "#/$defs/bbox"},
+        "rotation_deg": {"type": "number", "description": "counter-clockwise around the element centre"},
+        "baseline_mm": {"type": "number", "description": "text_line: baseline distance from page top"},
+        "align": {"enum": ["left", "right", "center", "justify", "decimal"]},
+        "spans": {"type": "array", "items": {"$ref": "#/$defs/span"}},
+        "critical": {"type": "string", "description": "critical field name if this line carries one: amount, gross_total, net_total, vat_amount, date, due_date, invoice_number, iban, bic, tax_number, vat_id, recipient"},
+        "from_mm": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+        "to_mm": {"type": "array", "items": {"type": "number"}, "minItems": 2, "maxItems": 2},
+        "width_pt": {"type": "number"},
+        "stroke": {"$ref": "#/$defs/color"},
+        "fill": {"$ref": "#/$defs/color"},
+        "corner_radius_mm": {"type": "number"},
+        "table": {
+          "type": "object",
+          "properties": {
+            "columns_mm": {"type": "array", "items": {"type": "number"}, "description": "x positions of column borders"},
+            "rows_mm": {"type": "array", "items": {"type": "number"}, "description": "y positions of row borders"},
+            "header_rows": {"type": "integer"},
+            "cells": {"type": "array", "items": {"type": "object", "properties": {
+              "row": {"type": "integer"}, "col": {"type": "integer"}, "rowspan": {"type": "integer"}, "colspan": {"type": "integer"},
+              "fill": {"$ref": "#/$defs/color"}, "align": {"enum": ["left", "right", "center", "decimal"]},
+              "spans": {"type": "array", "items": {"$ref": "#/$defs/span"}}}}},
+            "borders": {"type": "array", "items": {"type": "object", "properties": {
+              "from_mm": {"type": "array"}, "to_mm": {"type": "array"}, "width_pt": {"type": "number"}, "stroke": {"$ref": "#/$defs/color"}}}}
+          }
+        },
+        "svg_path": {"type": "string", "description": "path: SVG path data in mm, from tracing (signatures, handwriting, logos)"},
+        "code_type": {"enum": ["qr", "epc_girocode", "datamatrix", "ean13", "code128", "pdf417", "other"]},
+        "payload": {"type": "string", "description": "code: decoded payload, regenerated as vector"},
+        "image": {"type": "string", "description": "image: path of the tightly cropped raster, only when vector is not possible"},
+        "reason": {"type": "string", "description": "image: why raster was unavoidable"},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+From: Telekom Deutschland GmbH <rechnung@telekom.example>
+Date: Tue, 01 Sep 2026 06:12:00 +0200
+Subject: Ihre Rechnung 4711 für August 2026
+
+Guten Tag,
+
+Ihre Rechnung Nr. 4711 vom 01.09.2026 für den Anschluss Ihres Geschäfts beträgt 89,90 €.
+Der Betrag ist fällig am 15.09.2026.
+
+Kundennummer: 55 1234 5678
+Freundliche Grüße
+Ihre Telekom

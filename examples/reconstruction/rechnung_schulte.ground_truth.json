@@ -1,0 +1,1046 @@
+{
+ "page": {
+  "width_mm": 210,
+  "height_mm": 297
+ },
+ "text": [
+  {
+   "text": "Schulte Gastro-Service GmbH",
+   "x_mm": 42,
+   "baseline_mm": 20,
+   "width_mm": 80.62,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 16,
+   "color": "#1c3a6b",
+   "align": "left",
+   "role": "letterhead"
+  },
+  {
+   "text": "Großküchentechnik · Wartung · Ersatzteile",
+   "x_mm": 42,
+   "baseline_mm": 26,
+   "width_mm": 59.99,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#595959",
+   "align": "left"
+  },
+  {
+   "text": "Detmolder Straße 112",
+   "x_mm": 162.24,
+   "baseline_mm": 20,
+   "width_mm": 27.76,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "33100 Paderborn",
+   "x_mm": 168.19,
+   "baseline_mm": 24,
+   "width_mm": 21.81,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "Tel. 05251 4711-0",
+   "x_mm": 167.09,
+   "baseline_mm": 28,
+   "width_mm": 22.91,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 8,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "Schulte Gastro-Service GmbH · Detmolder Str. 112 · 33100 Paderborn",
+   "x_mm": 25,
+   "baseline_mm": 50,
+   "width_mm": 71.88,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 6.5,
+   "color": "#000000",
+   "align": "left",
+   "role": "return_address"
+  },
+  {
+   "text": "Muster Imbiss GmbH",
+   "x_mm": 25,
+   "baseline_mm": 60.0,
+   "width_mm": 33.13,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left",
+   "role": "recipient"
+  },
+  {
+   "text": "z. Hd. Frau Yilmaz",
+   "x_mm": 25,
+   "baseline_mm": 64.8,
+   "width_mm": 29.01,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left",
+   "role": "recipient"
+  },
+  {
+   "text": "Westernstraße 1",
+   "x_mm": 25,
+   "baseline_mm": 69.6,
+   "width_mm": 26.07,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left",
+   "role": "recipient"
+  },
+  {
+   "text": "33098 Paderborn",
+   "x_mm": 25,
+   "baseline_mm": 74.4,
+   "width_mm": 27.26,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left",
+   "role": "recipient"
+  },
+  {
+   "text": "Rechnungsnummer:",
+   "x_mm": 125,
+   "baseline_mm": 52.0,
+   "width_mm": 28.59,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "2026-0457",
+   "x_mm": 174.82,
+   "baseline_mm": 52.0,
+   "width_mm": 15.18,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "invoice_number"
+  },
+  {
+   "text": "Rechnungsdatum:",
+   "x_mm": 125,
+   "baseline_mm": 56.6,
+   "width_mm": 25.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "29.10.2026",
+   "x_mm": 174.11,
+   "baseline_mm": 56.6,
+   "width_mm": 15.89,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "invoice_date"
+  },
+  {
+   "text": "Leistungsdatum:",
+   "x_mm": 125,
+   "baseline_mm": 61.2,
+   "width_mm": 23.3,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "27.10.2026",
+   "x_mm": 174.11,
+   "baseline_mm": 61.2,
+   "width_mm": 15.89,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "service_date"
+  },
+  {
+   "text": "Kundennummer:",
+   "x_mm": 125,
+   "baseline_mm": 65.8,
+   "width_mm": 23.47,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "10382",
+   "x_mm": 181.17,
+   "baseline_mm": 65.8,
+   "width_mm": 8.83,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "USt-IdNr.:",
+   "x_mm": 125,
+   "baseline_mm": 70.4,
+   "width_mm": 14.11,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "DE287654324",
+   "x_mm": 169.7,
+   "baseline_mm": 70.4,
+   "width_mm": 20.3,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "vat_id"
+  },
+  {
+   "text": "Rechnung 2026-0457 – Wartung Fritteuse und Ersatzteile",
+   "x_mm": 25,
+   "baseline_mm": 103,
+   "width_mm": 114.33,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 12,
+   "color": "#000000",
+   "align": "left",
+   "role": "subject"
+  },
+  {
+   "text": "Sehr geehrte Frau Yilmaz,",
+   "x_mm": 25,
+   "baseline_mm": 113,
+   "width_mm": 41.18,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "für unsere Leistungen vom 27.10.2026 berechnen wir Ihnen:",
+   "x_mm": 25,
+   "baseline_mm": 118,
+   "width_mm": 94.33,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Pos.",
+   "x_mm": 26,
+   "baseline_mm": 128.9,
+   "width_mm": 6.71,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Bezeichnung",
+   "x_mm": 38,
+   "baseline_mm": 128.9,
+   "width_mm": 19.76,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Menge",
+   "x_mm": 132.94,
+   "baseline_mm": 128.9,
+   "width_mm": 10.06,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "Einzelpreis",
+   "x_mm": 146.24,
+   "baseline_mm": 128.9,
+   "width_mm": 16.76,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "Gesamt",
+   "x_mm": 177.35,
+   "baseline_mm": 128.9,
+   "width_mm": 11.65,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "1",
+   "x_mm": 26,
+   "baseline_mm": 135.6,
+   "width_mm": 1.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Wartung Doppelfritteuse FR-40, Arbeitszeit",
+   "x_mm": 38,
+   "baseline_mm": 135.6,
+   "width_mm": 60.53,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "2,5 Std.",
+   "x_mm": 132.06,
+   "baseline_mm": 135.6,
+   "width_mm": 10.94,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "68,00 €",
+   "x_mm": 152.41,
+   "baseline_mm": 135.6,
+   "width_mm": 10.59,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "170,00 €",
+   "x_mm": 176.64,
+   "baseline_mm": 135.6,
+   "width_mm": 12.36,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "line_total"
+  },
+  {
+   "text": "2",
+   "x_mm": 26,
+   "baseline_mm": 141.8,
+   "width_mm": 1.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Heizelement 9 kW (Ersatzteil Nr. 40-1187)",
+   "x_mm": 38,
+   "baseline_mm": 141.8,
+   "width_mm": 59.46,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "1 Stk.",
+   "x_mm": 134.88,
+   "baseline_mm": 141.8,
+   "width_mm": 8.12,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "214,50 €",
+   "x_mm": 150.64,
+   "baseline_mm": 141.8,
+   "width_mm": 12.36,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "214,50 €",
+   "x_mm": 176.64,
+   "baseline_mm": 141.8,
+   "width_mm": 12.36,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "line_total"
+  },
+  {
+   "text": "3",
+   "x_mm": 26,
+   "baseline_mm": 148.0,
+   "width_mm": 1.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Dichtungssatz Ablasshahn",
+   "x_mm": 38,
+   "baseline_mm": 148.0,
+   "width_mm": 37.42,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "2 Stk.",
+   "x_mm": 134.88,
+   "baseline_mm": 148.0,
+   "width_mm": 8.12,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "18,90 €",
+   "x_mm": 152.41,
+   "baseline_mm": 148.0,
+   "width_mm": 10.59,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "37,80 €",
+   "x_mm": 178.41,
+   "baseline_mm": 148.0,
+   "width_mm": 10.59,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "line_total"
+  },
+  {
+   "text": "4",
+   "x_mm": 26,
+   "baseline_mm": 154.2,
+   "width_mm": 1.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Anfahrtspauschale Paderborn",
+   "x_mm": 38,
+   "baseline_mm": 154.2,
+   "width_mm": 42.01,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "1",
+   "x_mm": 141.23,
+   "baseline_mm": 154.2,
+   "width_mm": 1.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "35,00 €",
+   "x_mm": 152.41,
+   "baseline_mm": 154.2,
+   "width_mm": 10.59,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "35,00 €",
+   "x_mm": 178.41,
+   "baseline_mm": 154.2,
+   "width_mm": 10.59,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 9,
+   "color": "#000000",
+   "align": "right",
+   "critical": "line_total"
+  },
+  {
+   "text": "Nettobetrag",
+   "x_mm": 144.57,
+   "baseline_mm": 162.8,
+   "width_mm": 18.43,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "457,30 €",
+   "x_mm": 175.27,
+   "baseline_mm": 162.8,
+   "width_mm": 13.73,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "right",
+   "critical": "net_total"
+  },
+  {
+   "text": "zzgl. 19 % USt",
+   "x_mm": 139.86,
+   "baseline_mm": 168.0,
+   "width_mm": 23.14,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "86,89 €",
+   "x_mm": 177.23,
+   "baseline_mm": 168.0,
+   "width_mm": 11.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "right",
+   "critical": "vat_amount"
+  },
+  {
+   "text": "Rechnungsbetrag",
+   "x_mm": 133.01,
+   "baseline_mm": 173.2,
+   "width_mm": 29.99,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "right"
+  },
+  {
+   "text": "544,19 €",
+   "x_mm": 175.27,
+   "baseline_mm": 173.2,
+   "width_mm": 13.73,
+   "font_family": "Liberation Sans",
+   "weight": "bold",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "right",
+   "critical": "gross_total"
+  },
+  {
+   "text": "Bitte überweisen Sie den Rechnungsbetrag bis zum 12.11.2026 ohne Abzug",
+   "x_mm": 25,
+   "baseline_mm": 184.8,
+   "width_mm": 119.44,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left",
+   "critical": "due_date"
+  },
+  {
+   "text": "unter Angabe der Rechnungsnummer. Zum Bezahlen per Banking-App",
+   "x_mm": 25,
+   "baseline_mm": 189.8,
+   "width_mm": 110.99,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "können Sie den GiroCode rechts scannen.",
+   "x_mm": 25,
+   "baseline_mm": 194.8,
+   "width_mm": 66.48,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Mit freundlichen Grüßen",
+   "x_mm": 25,
+   "baseline_mm": 204.8,
+   "width_mm": 37.84,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "Thomas Schulte",
+   "x_mm": 25,
+   "baseline_mm": 223.8,
+   "width_mm": 25.49,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 10,
+   "color": "#000000",
+   "align": "left"
+  },
+  {
+   "text": "GiroCode",
+   "x_mm": 169.72,
+   "baseline_mm": 218.8,
+   "width_mm": 10.57,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#000000",
+   "align": "center"
+  },
+  {
+   "text": "Schulte Gastro-Service GmbH",
+   "x_mm": 25,
+   "baseline_mm": 280.0,
+   "width_mm": 33.21,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  },
+  {
+   "text": "Detmolder Straße 112",
+   "x_mm": 25,
+   "baseline_mm": 283.4,
+   "width_mm": 24.29,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  },
+  {
+   "text": "33100 Paderborn",
+   "x_mm": 25,
+   "baseline_mm": 286.8,
+   "width_mm": 19.09,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  },
+  {
+   "text": "Geschäftsführer: Thomas Schulte",
+   "x_mm": 82,
+   "baseline_mm": 280.0,
+   "width_mm": 36.78,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  },
+  {
+   "text": "Amtsgericht Paderborn HRB 12345",
+   "x_mm": 82,
+   "baseline_mm": 283.4,
+   "width_mm": 38.71,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  },
+  {
+   "text": "USt-IdNr. DE287654324",
+   "x_mm": 82,
+   "baseline_mm": 286.8,
+   "width_mm": 26.77,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  },
+  {
+   "text": "Musterbank Paderborn (fiktiv)",
+   "x_mm": 139,
+   "baseline_mm": 280.0,
+   "width_mm": 32.39,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  },
+  {
+   "text": "IBAN DE32 0000 0000 0000 1234 56",
+   "x_mm": 139,
+   "baseline_mm": 283.4,
+   "width_mm": 40.78,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left",
+   "critical": "iban"
+  },
+  {
+   "text": "BIC MUSTDEM1XXX",
+   "x_mm": 139,
+   "baseline_mm": 286.8,
+   "width_mm": 23.6,
+   "font_family": "Liberation Sans",
+   "weight": "regular",
+   "style": "normal",
+   "size_pt": 7,
+   "color": "#4c4c4c",
+   "align": "left"
+  }
+ ],
+ "rules": [
+  {
+   "from_mm": [
+    3,
+    105
+   ],
+   "to_mm": [
+    8,
+    105
+   ],
+   "width_pt": 0.4,
+   "color": "#000000",
+   "role": "fold_mark"
+  },
+  {
+   "from_mm": [
+    3,
+    210
+   ],
+   "to_mm": [
+    8,
+    210
+   ],
+   "width_pt": 0.4,
+   "color": "#000000",
+   "role": "fold_mark"
+  },
+  {
+   "from_mm": [
+    3,
+    148.5
+   ],
+   "to_mm": [
+    10,
+    148.5
+   ],
+   "width_pt": 0.4,
+   "color": "#000000",
+   "role": "punch_mark"
+  },
+  {
+   "from_mm": [
+    25,
+    51.5
+   ],
+   "to_mm": [
+    105,
+    51.5
+   ],
+   "width_pt": 0.3,
+   "color": "#000000"
+  },
+  {
+   "from_mm": [
+    25,
+    137.2
+   ],
+   "to_mm": [
+    190,
+    137.2
+   ],
+   "width_pt": 0.3,
+   "color": "#999999"
+  },
+  {
+   "from_mm": [
+    25,
+    143.4
+   ],
+   "to_mm": [
+    190,
+    143.4
+   ],
+   "width_pt": 0.3,
+   "color": "#999999"
+  },
+  {
+   "from_mm": [
+    25,
+    149.6
+   ],
+   "to_mm": [
+    190,
+    149.6
+   ],
+   "width_pt": 0.3,
+   "color": "#999999"
+  },
+  {
+   "from_mm": [
+    25,
+    155.8
+   ],
+   "to_mm": [
+    190,
+    155.8
+   ],
+   "width_pt": 0.3,
+   "color": "#999999"
+  },
+  {
+   "from_mm": [
+    140,
+    169.00000000000003
+   ],
+   "to_mm": [
+    190,
+    169.00000000000003
+   ],
+   "width_pt": 0.6,
+   "color": "#000000"
+  },
+  {
+   "from_mm": [
+    25,
+    275
+   ],
+   "to_mm": [
+    190,
+    275
+   ],
+   "width_pt": 0.4,
+   "color": "#999999"
+  }
+ ],
+ "rects": [
+  {
+   "bbox_mm": [
+    25,
+    124,
+    165,
+    7
+   ],
+   "fill": "#e0e5ef",
+   "stroke": null
+  }
+ ],
+ "codes": [
+  {
+   "type": "QR/EPC GiroCode",
+   "bbox_mm": [
+    162,
+    188.8,
+    26,
+    26
+   ],
+   "payload": "BCD\n002\n1\nSCT\nMUSTDEM1XXX\nSchulte Gastro-Service GmbH\nDE32000000000000123456\nEUR544.19\n\n\nRechnung 2026-0457"
+  }
+ ],
+ "graphics": [
+  {
+   "kind": "logo",
+   "bbox_mm": [
+    19,
+    13,
+    18,
+    18
+   ],
+   "note": "filled circle #1c3a6b with white bold 'SG'"
+  },
+  {
+   "kind": "signature",
+   "bbox_mm": [
+    25,
+    206.8,
+    45,
+    15
+   ],
+   "note": "blue hand-drawn stroke; never as font text"
+  },
+  {
+   "kind": "stamp",
+   "center_mm": [
+    150,
+    92
+   ],
+   "rotation_deg": 8,
+   "color": "#bf1a1a",
+   "text": [
+    "EINGEGANGEN",
+    "30. OKT. 2026"
+   ],
+   "note": "rounded rectangle, rotated 8° counter-clockwise"
+  }
+ ],
+ "meta": {
+  "title": "Rechnung 2026-0457",
+  "type": "Rechnung",
+  "layout": "DIN 5008 Form B"
+ }
+}

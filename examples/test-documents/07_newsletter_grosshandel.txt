@@ -1,0 +1,8 @@
+From: Großmarkt Ostwestfalen <news@grossmarkt.example>
+Date: Wed, 28 Oct 2026 09:00:00 +0100
+Subject: Unsere Angebote der Woche
+
+Hallo,
+diese Woche im Angebot: Sonnenblumenöl 10 l für 18,99 €, Fladenbrot-Mix, Servietten.
+Viel Erfolg wünscht Ihr Großmarkt-Team.
+Abmelden: https://grossmarkt.example/abmelden
